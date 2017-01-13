@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.cell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.cell-box{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20rpx;
+}
+.cell-images {
+    width: 100%;
+    height: 240px;
+}
+.cell-time {
+    font-family: "DINCondensedC","Microsoft Yahei",Tahoma,Simsun,sans-serif;
+    padding: 6rpx;
+    font-size: 22rpx;
+    z-index: 10;
+    position: absolute;
+    right:40rpx;
+    bottom: 40rpx;
+    color: aliceblue;
+}

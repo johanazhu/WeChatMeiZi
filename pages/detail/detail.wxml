@@ -1,0 +1,5 @@
+<view class="container">
+        
+        <image class="pic" src="{{url}}" mode="aspectFill" bindlongtap="onSaveImage" data-url="{{url}}"></image>
+        
+</view>

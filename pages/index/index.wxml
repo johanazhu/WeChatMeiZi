@@ -1,0 +1,8 @@
+<view class="container">
+    <view class="cell" wx:for="{{meiData}}">
+        <view class="cell-box" bindtap="onClickImage" data-url="{{item.url}}">
+            <image class="cell-images" mode="aspectFill" src="{{item.url}}"></image>
+            <text class="cell-time">{{item.publishedAt}}</text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,14 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/detail/detail"
+    ],
+    "window": {
+      "navigationBarBackgroundColor": "#ffffff",
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "干货集中营",
+      "backgroundColor": "#eeeeee",
+      "backgroundTextStyle": "light",
+      "enablePullDownRefresh": true
+    }
+}
